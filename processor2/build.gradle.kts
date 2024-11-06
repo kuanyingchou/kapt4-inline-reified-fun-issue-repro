@@ -14,7 +14,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("com.google.auto.service:auto-service:1.1.1")
     kapt("com.google.auto.service:auto-service:1.1.1")
-    implementation("org.jetbrains.kotlin:kotlin-metadata-jvm:2.0.10")
+    implementation("org.jetbrains.kotlin:kotlin-metadata-jvm:2.0.21")
 }
 
 tasks.test {

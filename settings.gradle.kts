@@ -5,3 +5,4 @@ rootProject.name = "TestJavaAP2"
 include("untitled")
 include("client")
 include("processor2")
+include(":lib")

@@ -16,6 +16,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation(project(":processor2"))
     kapt(project(":processor2"))
+    implementation(project(":lib"))
 }
 
 tasks.test {
